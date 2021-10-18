@@ -1,10 +1,51 @@
 BoxLayoutExample:
 
 <BoxLayoutExample>:
-    Button:
-        text: "Ivan"
-        size_hint 1, 2
-    Button:
-        text: "Vania"
-    Button:
-        text: "Vanya"
+    orientation: "vertical"
+    Label:
+        text: "Игра-векторина для самых умных"
+        size_hint: None, None
+        width: "100dp"
+        height: "100dp"
+        pos_hint: {"center_x": 0.5, "top": 0.1}
+    Label:
+        text: "Кто изобрёл кубик - рубика?"
+        size_hint: None, None
+        width: "200dp"
+        height: "284dp"
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        font_size: 20
+        color: 0,1,4,4
+
+    BoxLayout:
+        Button:
+            text: "Стив Джобс"
+            size_hint: None, None
+            width: "400dp"
+            height: "100dp"
+            pos_hint: {"center_x": 0.0, "center_y": 0.7}
+        Button:
+            text: "Илон Маск"
+            size_hint: None, None
+            width: "400dp"
+            height: "100dp"
+            pos_hint: {"center_x": 0.9, "center_y": 0.7}
+    BoxLayout:
+        Button:
+            text: "Китайцы"
+            size_hint: None, None
+            width: "400dp"
+            height: "100dp"
+            pos_hint: {"center_x": 0.0, "center_y": 0.5}
+        Button:
+            text: "Рубик Эрнё"
+            size_hint: None, None
+            width: "400dp"
+            height: "100dp"
+            pos_hint: {"center_x": 0.9, "center_y": 0.5}
+    Label:
+        text: "Подумайте хорошенько над ответом"
+        size_hint: None, None
+        width: "50dp"
+        height: "50dp"
+        pos_hint: {"center_x": 0.5, "center_y": 0.100000}
